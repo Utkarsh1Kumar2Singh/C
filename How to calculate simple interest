@@ -1,7 +1,1 @@
-# include <stdio.h>
-int main (){
-  float p = 34.56 , r = 5 , t = 5 ;
- float simple_interest = (p*r*t)/100 ;
-printf("The above value simple interest is %f", simple_interest);
-return 0 ;
-}
+
