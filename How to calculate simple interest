@@ -1,1 +1,13 @@
-
+# include <stdio.h>
+int main(){
+float p , i , t ;
+printf("The principal amoount is = ");
+scanf("%f", &p);
+printf("The rate of interest is = ");
+scanf("%f",&i);
+printf("The time duration is = ");
+scanf("%f",&t);
+float simple_interest = (p*i*t)/100 ;
+printf("The simple_interest is %f", simple_interest);
+return 0 ;
+}
