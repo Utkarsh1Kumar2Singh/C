@@ -1,0 +1,19 @@
+# include <stdio.h>
+int main(){
+    int age ;
+    printf(" Enter your age here = ");
+    scanf("%d",&age);
+    if (age > 60){
+        printf(" You can drive and you are an elder citizen");
+    }
+    else if(age > 40){
+        printf(" You can drive and you are an elder");
+    }
+    else if (age > 18){
+        printf(" You can drive and you are a young gun");
+    }
+    else{
+        printf(" You are too young too drive");
+    }
+    return 0 ;
+}
